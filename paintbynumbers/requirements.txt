@@ -1,9 +1,9 @@
 flask
+gunicorn
+pillow
 numpy
 opencv-python-headless
-pillow
 scikit-image
 shapely
 scikit-learn
 scipy
-gunicorn
