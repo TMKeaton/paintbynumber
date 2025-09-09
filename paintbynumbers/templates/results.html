@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Results</title>
+</head>
+<body>
+  <h2>Your Paint By Numbers Bundle</h2>
+  <ul>
+    {% for f in files %}
+      <li><a href="{{ url_for('download', filename=f) }}">{{ f }}</a></li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('index') }}">Upload another</a>
+</body>
+</html>
