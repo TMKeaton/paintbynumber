@@ -1,6 +1,5 @@
-flask
-gunicorn
-pillow
+Flask
+Pillow
 numpy
 opencv-python-headless
 scikit-image
